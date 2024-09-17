@@ -45,7 +45,9 @@ const Header = () => {
             </svg>
           </button>
         </div> */}
-        <a href='#contact'>Contact Us</a>
+        <a href='#contact'>
+          <b>Contact Us</b>
+        </a>
         <button className='sign-in-btn' onClick={handleSighIn}>
           Sign In
         </button>

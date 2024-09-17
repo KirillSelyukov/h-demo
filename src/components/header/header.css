@@ -58,6 +58,14 @@
   align-items: center;
   gap: 20px;
 }
+.header-right a {
+  font-size: 16px;
+  color: #5f249f;
+  text-decoration: none;
+}
+.header-right a:hover {
+  color: #4b0082;
+}
 
 .search-container {
   display: flex;
