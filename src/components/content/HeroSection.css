@@ -1,0 +1,72 @@
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: 400px;
+  /* background-image: url(''); Replace with your background image */
+  background-color: #5f249f;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+
+  flex-direction: column;
+  color: white;
+  max-width: 1000px;
+  text-align: left;
+  padding: 0 120px;
+}
+
+.hero-logo img {
+  width: 200px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.demo-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-btn {
+  background-color: #2196f3;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.demo-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.get-started-btn:hover {
+  background-color: #1e88e5;
+}

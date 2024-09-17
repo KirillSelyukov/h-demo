@@ -1,0 +1,17 @@
+.statistics-section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  /* background-color: #f4f4f4; */
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  gap: 20px;
+  margin-top: 30px;
+}
+.stat-item2 {
+  padding-bottom: 8px;
+  /* background-color: #fff; */
+}
+
+.info-section {
+}

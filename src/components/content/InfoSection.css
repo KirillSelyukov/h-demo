@@ -1,0 +1,48 @@
+/* Info Section */
+.info-section {
+  background-color: white;
+}
+
+.info-content {
+  /* max-width: 600px; */
+  padding: 32px 120px;
+  /* margin: 0 auto; */
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.info-content h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.info-content strong {
+  font-weight: bold;
+}
+
+.info-content ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.info-content ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.about-btn {
+  background-color: transparent;
+  border: 2px solid #2196f3;
+  color: #2196f3;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: #2196f3;
+  color: white;
+}

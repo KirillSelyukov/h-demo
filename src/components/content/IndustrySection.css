@@ -1,0 +1,65 @@
+/* Industry Section */
+.industry-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #f4f5f7;
+  /* padding: 40px; */
+}
+
+.industry-content {
+  max-width: 50%;
+  font-family: 'Arial', sans-serif;
+  padding: 32px 120px;
+}
+
+.industry-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.industry-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #333;
+  width: 500px;
+}
+
+.industry-content h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.industry-content ul {
+  list-style: none;
+  padding-left: 0;
+  color: #333;
+}
+
+.industry-content ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.industry-content ul li strong {
+  font-weight: bold;
+}
+
+.industry-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-end;
+  padding: 32px 0;
+}
+
+.hex-logo {
+  width: 100px;
+  height: 100px;
+  clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+  background-color: #512da8;
+  display: inline-block;
+}
